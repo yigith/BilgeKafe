@@ -72,6 +72,9 @@
     <Compile Include="UrunlerForm.Designer.cs">
       <DependentUpon>UrunlerForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AnaForm.resx">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
