@@ -29,7 +29,7 @@ namespace BilgeKafe.UI
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnUrunEkle = new System.Windows.Forms.Button();
             this.nudBirimFiyat = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
@@ -111,7 +111,7 @@ namespace BilgeKafe.UI
             this.dgvUrunler.ReadOnly = true;
             this.dgvUrunler.RowHeadersVisible = false;
             this.dgvUrunler.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvUrunler.Size = new System.Drawing.Size(555, 318);
+            this.dgvUrunler.Size = new System.Drawing.Size(521, 261);
             this.dgvUrunler.TabIndex = 6;
             this.dgvUrunler.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.dgvUrunler_UserDeletingRow);
             // 
@@ -125,8 +125,8 @@ namespace BilgeKafe.UI
             // Column2
             // 
             this.Column2.DataPropertyName = "BirimFiyat";
-            dataGridViewCellStyle4.Format = "0.00₺";
-            this.Column2.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle3.Format = "0.00₺";
+            this.Column2.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column2.HeaderText = "Birim Fiyatı";
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
@@ -136,9 +136,9 @@ namespace BilgeKafe.UI
             this.btnDuzenle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDuzenle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnDuzenle.Location = new System.Drawing.Point(12, 395);
+            this.btnDuzenle.Location = new System.Drawing.Point(12, 338);
             this.btnDuzenle.Name = "btnDuzenle";
-            this.btnDuzenle.Size = new System.Drawing.Size(555, 29);
+            this.btnDuzenle.Size = new System.Drawing.Size(521, 29);
             this.btnDuzenle.TabIndex = 7;
             this.btnDuzenle.Text = "SEÇİLİ ÜRÜNÜ DÜZENLE";
             this.btnDuzenle.UseVisualStyleBackColor = true;
@@ -160,7 +160,7 @@ namespace BilgeKafe.UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(579, 436);
+            this.ClientSize = new System.Drawing.Size(545, 379);
             this.Controls.Add(this.btnIptal);
             this.Controls.Add(this.btnDuzenle);
             this.Controls.Add(this.dgvUrunler);
@@ -172,6 +172,7 @@ namespace BilgeKafe.UI
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "UrunlerForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Ürünler";
             ((System.ComponentModel.ISupportInitialize)(this.nudBirimFiyat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUrunler)).EndInit();
