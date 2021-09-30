@@ -29,7 +29,7 @@ namespace BilgeKafe.UI
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dgvSiparisler = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -137,8 +137,8 @@ namespace BilgeKafe.UI
             // Column5
             // 
             this.Column5.DataPropertyName = "OdenenTutar";
-            dataGridViewCellStyle1.Format = "0.00₺";
-            this.Column5.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Format = "0.00₺";
+            this.Column5.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column5.HeaderText = "Ödenen Tutar";
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
@@ -182,7 +182,7 @@ namespace BilgeKafe.UI
             this.dgvSiparisDetaylar.ReadOnly = true;
             this.dgvSiparisDetaylar.RowHeadersVisible = false;
             this.dgvSiparisDetaylar.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSiparisDetaylar.Size = new System.Drawing.Size(692, 181);
+            this.dgvSiparisDetaylar.Size = new System.Drawing.Size(692, 178);
             this.dgvSiparisDetaylar.TabIndex = 3;
             // 
             // Column7
